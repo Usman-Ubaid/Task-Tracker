@@ -19,7 +19,7 @@ function App() {
     },
     {
         id: 3,
-        text: 'Food Shoppig',
+        text: 'Food Shopping',
         day: 'Oct 28th at 16:00',
         reminder: false
     }
