@@ -62,3 +62,14 @@ body {
 .task-reminder {
   border-left: 4px solid green;
 }
+
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.icon {
+  color: red;
+  cursor: pointer;
+}
