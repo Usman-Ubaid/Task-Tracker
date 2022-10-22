@@ -5,6 +5,7 @@ import Tasks from './components/Tasks';
 import AddForm from './components/AddForm';
 
 function App() {
+  const [showAddTask, setShowAddTask] = useState(false)
   const [tasks, setTasks] = useState([
     {
         id: 1,
@@ -49,9 +50,11 @@ function App() {
 
   return (
     <div className="container">
-      <Header title = 'Task Tracker' />
+      <Header title = 'Task Tracker' 
+              onAddTask={() => setShowAddTask(!showAddTask)} 
+              showAdd={showAddTask}/>
 
-      <AddForm onAdd={addTask} />
+      {showAddTask && <AddForm onAdd={addTask} />}
 
       {tasks.length > 0 
       ? <Tasks tasks={tasks} onDelete={deleteTask}
