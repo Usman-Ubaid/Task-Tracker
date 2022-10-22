@@ -109,3 +109,8 @@ body {
   flex: 2;
   height: 20px;
 }
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
