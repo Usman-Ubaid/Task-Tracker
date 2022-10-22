@@ -73,3 +73,39 @@ body {
   color: red;
   cursor: pointer;
 }
+
+.form {
+  text-align: left;
+}
+
+.form-control {
+  margin: 1.3rem 0;
+}
+
+.form-control label {
+  margin: 0.6rem 0;
+  font-weight: bold;
+  display: block;
+}
+
+.form-control input {
+  width: 100%;
+  height: 35px;
+  padding: 0 0.4rem 0 0.4rem;
+  font-size: 1rem;
+}
+
+.form-control-check {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-control-check label {
+  flex: 1;
+}
+
+.form-control-check input {
+  flex: 2;
+  height: 20px;
+}
