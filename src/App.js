@@ -30,6 +30,14 @@ function App() {
   const deleteTask = (id) => {
     setTasks(tasks.filter((task) => task.id !== id))
   }
+  
+  // Add Task
+  const addTask = (task) => {
+    const id = Math.floor(Math.random() * 1000) + 1;
+    const newTask = {id, ...task };
+    setTasks([...tasks, newTask])
+  }
+  
 
   // Toggle Reminder
   const toggleReminder = (id) => {
@@ -43,8 +51,8 @@ function App() {
     <div className="container">
       <Header title = 'Task Tracker' />
 
-      <AddForm />
-      
+      <AddForm onAdd={addTask} />
+
       {tasks.length > 0 
       ? <Tasks tasks={tasks} onDelete={deleteTask}
       onToggle={toggleReminder}/> 
