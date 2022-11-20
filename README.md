@@ -18,7 +18,7 @@ npm install
 
 ## Author
 
-- Github: [Usman-Ubaid}(https://github.com/Usman-Ubaid)
+- Github: [Usman-Ubaid](https://github.com/Usman-Ubaid)
 
 ## Acknowledgments
 
