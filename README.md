@@ -14,3 +14,12 @@ npm install
 * Adding Tasks.
 * Removing Tasks.
 * Setting Reminder.
+
+
+## Author
+
+- Github: [Usman-Ubaid}(https://github.com/Usman-Ubaid)
+
+## Acknowledgments
+
+- Github [Brad Traversy](https://github.com/bradtraversy)
