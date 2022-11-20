@@ -1,2 +1,2 @@
 # Task-Tracker
-A React Project that add and remove tasks and sets reminder to the tasks.
+A React To-do Project that includes React UI and JSON-Server for a mock backend.
