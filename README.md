@@ -8,3 +8,9 @@ A React To-do Project that includes React UI and JSON-Server for a mock backend.
 ```
 npm install
 ```
+
+### Features
+
+* Adding Tasks.
+* Removing Tasks.
+* Setting Reminder.
