@@ -1,5 +1,5 @@
 # Task-Tracker
-A React To-do Project that includes React UI and JSON-Server for a mock backend.
+A React To-Do Project that includes React UI and a mock backend JSON-Server. 
 
 
 ## Usage
