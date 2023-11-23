@@ -1,6 +1,14 @@
 # Task-Tracker
-A React To-Do Project that includes React UI and a mock backend JSON-Server. 
+A React To-Do Project that keeps track of tasks. 
 
+> This project is built using React framework with the use of react-router-dom, json-server, and react-icons libraries.
+
+### Features
+
+* Adding Tasks.
+* Removing Tasks.
+* Setting Reminder.
+* Mock JSON-server
 
 ## Usage
 
@@ -9,17 +17,20 @@ A React To-Do Project that includes React UI and a mock backend JSON-Server. 
 npm install
 ```
 
-### Features
-
-* Adding Tasks.
-* Removing Tasks.
-* Setting Reminder.
-
+### Run
+To run frontend:
+```
+npm run start | npm start
+```
+To watch db.json or start mock json-server:
+```
+npm run server
+```
 
 ## Author
 
-- Github: [Usman-Ubaid](https://github.com/Usman-Ubaid)
+- GitHub: [Usman-Ubaid](https://github.com/Usman-Ubaid)
 
 ## Acknowledgments
 
-- Github [Brad Traversy](https://github.com/bradtraversy)
+- GitHub [Brad Traversy](https://github.com/bradtraversy)
